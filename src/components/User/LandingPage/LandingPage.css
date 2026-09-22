@@ -1,0 +1,25 @@
+/* gradient for text */
+.gradient-text{
+    background:  -webkit-linear-gradient(135deg, #FAE196 0%, #F58994 50.7%, #9694E9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ready to custom tailwind */
+.max-w-480{
+max-width: 480px;
+}
+
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25% ;/* Player ratio: 100 / (1280 / 720) */   
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 14px 10px 20px rgba(0,0,0,0.8);
+  }
+
